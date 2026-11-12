@@ -1,0 +1,23 @@
+{
+  "name": "peopledesk-server",
+  "version": "1.0.0",
+  "description": "PeopleDesk Employee Management System - Backend API",
+  "main": "src/server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js",
+    "seed": "node seed.js",
+    "test": "node test-suite.js",
+    "test:phase3": "node test-phase3.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.6",
+    "dotenv": "^18.0.10",
+    "express": "^5.3.0",
+    "mongoose": "^9.12.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
